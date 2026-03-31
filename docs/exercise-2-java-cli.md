@@ -13,10 +13,17 @@
 
 ## Getting Started
 
-Navigate to your modernized tournament service:
+Navigate to your modernized tournament service in your terminal(ctrl+`):
+
+Install the Copilot CLI if not already installed:
 
 ```bash
-cd app-modernization-workshop/legacy-code/java-tournament-service
+npm install -g @github/copilot
+```
+or
+```
+# For Windows users, use winget:
+winget install GitHub.Copilot
 ```
 
 ---
@@ -61,7 +68,7 @@ Select **"Manage agents"** → **"Create new agent"**
 # For format details: https://gh.io/customagents/config
 name: SecurityAgent
 description: Detect CVEs and harden Java Spring Boot applications
-tools: ['shell', 'read', 'edit', 'search', 'validate_cves_for_java', 'generate_upgrade_plan', 'generate_tests_for_java', 'build_java_project', 'run_tests_for_java']
+tools: ['shell', 'read', 'edit', 'search', 'validate_cves_for_java', 'generate_upgrade_plan', 'generate_tests_for_java', 'build_java_project', 'run_tests_for_java','appmod-analyse-repository']
 ---
 
 # Security Agent
@@ -140,7 +147,7 @@ The agent executes these MCP tools in sequence:
 
 ## Key Takeaways
 
-**MCP Server** configured with specialized Java security tools  
+**MCP Server** configured with specialized Java tools  
 **Custom Agent** created for reusable security workflows  
 **CVE Detection** automated with `validate_cves_for_java`  
 **Dependency Upgrades** safely applied via `generate_upgrade_plan`  

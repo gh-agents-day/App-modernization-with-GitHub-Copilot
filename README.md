@@ -24,7 +24,7 @@ By the end of this 2-hour workshop, you will:
 - [Copilot CLI](https://github.com/features/copilot/cli)
 - [GitHub CLI](https://cli.github.com/) for MCP interactions  
 - [GitHub MCP](https://github.com/github/github-mcp-server?tab=readme-ov-file)
-- Docker Desktop (for containerization exercises)
+- Docker Desktop (for containerization exercise)
 
 
 ### Required VS Code Extensions

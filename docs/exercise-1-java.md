@@ -18,11 +18,10 @@ Your mission: **Modernize this service to handle 10x the current traffic using S
 
 ## Getting Started
 
-**Clone the repository:**
+**Clone the repository and change the directory in terminal(ctrl+`):**
 
 ```bash
-git clone https://github.com/CanarysPlayground/app-modernization-workshop.git
-cd app-modernization-workshop
+git clone https://github.com/gh-agents-day/App-modernization-with-GitHub-Copilot.git
 cd legacy-code/java-tournament-service
 ```
 
@@ -109,7 +108,7 @@ Copilot automatically transforms:
 ## Key Takeaways
 
 Single comprehensive prompt triggers complete stack modernization  
-@workspace analyzes entire project structure before changes  
+Analyzes entire project structure before changes  
 Spring Boot 3.2 requires Java 17+ and jakarta namespace  
 Reactive patterns: Flux (0..N), Mono (0..1) for non-blocking I/O
 
@@ -129,7 +128,7 @@ Congratulations! You've modernized the Tournament Service.
 - Learn Copilot CLI automation with custom agents
 - Detect and fix CVEs using MCP server tools
 - Generate security tests with AI
-- **Duration**: 25 minutes
+
 
 
 
