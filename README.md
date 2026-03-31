@@ -19,12 +19,13 @@ By the end of this 2-hour workshop, you will:
 
 ### Required Tools
 
-- **Visual Studio Code** (latest version)
-- **GitHub Copilot** subscription (individual, business, or enterprise)
-- **Git** (v2.40+)
-- **Docker Desktop** (for containerization exercises)
-- **GitHub CLI**
-- **Copilot CLI**
+- [VS Code](https://code.visualstudio.com/download) with GitHub Copilot Chat extension
+- [Git CLI](https://git-scm.com/install/) for version control  
+- [Copilot CLI](https://github.com/features/copilot/cli)
+- [GitHub CLI](https://cli.github.com/) for MCP interactions  
+- [GitHub MCP](https://github.com/github/github-mcp-server?tab=readme-ov-file)
+- Docker Desktop (for containerization exercises)
+
 
 ### Required VS Code Extensions
 
