@@ -1,56 +1,57 @@
-﻿#  Game Arena Legends - App Modernization Workshop
+# Game Arena Legends - App Modernization Workshop
 
 ![Workshop Banner](https://img.shields.io/badge/Duration-2%20Hours-blue) ![Difficulty](https://img.shields.io/badge/Level-Intermediate-orange) ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Enabled-green)
 
-##  The Story
+## The Story
 
 Welcome to **Game Arena Legends**, the world's premier esports tournament management platform! Founded in 2010, our platform has been managing tournaments for games like League of Legends, Dota 2, CS:GO, and Valorant. However, our legacy codebase is holding us back from delivering the next-generation features our players and tournament organizers demand.
 
 As a newly hired **Cloud Modernization Engineer** at Game Arena Legends, your mission is to modernize our legacy systems across multiple technology stacks. The championship season is approaching, and we need to ensure our platform can handle millions of concurrent users while providing real-time analytics and a seamless user experience.
 
-##  Workshop Objectives
+## Workshop Objectives
 
 By the end of this 2-hour workshop, you will:
 
--  Master GitHub Copilot agents (GitHub Copilot Agent, custom agents) for app modernization
--  Modernize legacy Java, .NET, Angular, and DevOps/Data pipelines
--  Apply best practices for code refactoring, testing, and deployment
--  Learn migration patterns from monoliths to microservices
+- Master GitHub Copilot agents (GitHub Copilot Agent, custom agents) for app modernization
+- Modernize legacy Java, .NET, Angular, and DevOps/Data pipelines
+- Apply best practices for code refactoring, testing, and deployment
+- Learn migration patterns from monoliths to microservices
 
-##  Prerequisites
+## Prerequisites
 
 ### Required Tools
+
 - **Visual Studio Code** (latest version)
 - **GitHub Copilot** subscription (individual, business, or enterprise)
 - **Git** (v2.40+)
 - **Docker Desktop** (for containerization exercises)
 
 ### Required VS Code Extensions
-- **GitHub Copilot Chat** (`GitHub.copilot-chat`)
-- **GitHub Copilot App Modernization** (`vscjava.migrate-java-to-azure`)
-- **GitHub Copilot App Modernization - Java Upgrade** (`vscjava.vscode-java-upgrade`)
-- **GitHub Copilot App Modernization for .NET** (`ms-dotnettools.vscodedotnet-modernize`)
+
+- **[GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)** (`GitHub.copilot-chat`)
+- **[GitHub Copilot App Modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure)** (`vscjava.migrate-java-to-azure`)
+- **[GitHub Copilot App Modernization - Java Upgrade](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-upgrade)** (`vscjava.vscode-java-upgrade`)
+- **[GitHub Copilot App Modernization for .NET](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-modernize)** (`ms-dotnettools.vscode-dotnet-modernize`)
 
 ### Language-Specific Requirements
-- **Java**: JDK 17+ and Maven 3.8+
+
+- **Java**: Java JDK for both the source and target JDK versions. Maven or Gradle to build Java projects.
 - **.NET**: .NET 8.0 SDK
 - **Angular**: Node.js 20+ and npm 10+
 - **Python**: Python 3.11+ (for data engineering exercise)
 
-##  Workshop Exercises
+## Workshop Exercises
 
-| # | Exercise | Duration | Difficulty | Learning Path | What You'll Learn |
-|---|----------|----------|------------|---------------|-------------------|
-| 1 | [Java Backend Modernization](./docs/exercise-1-java.md) | 30 min | ⭐⭐⭐ | Backend | Migrate Spring Boot 2.x → 3.x, add reactive patterns, R2DBC |
-| 2 | [CVE Detection & Security Hardening](./docs/exercise-2-java-cli.md) | 30 min | ⭐⭐⭐⭐ | Security  | Fix CVEs, harden security using Copilot CLI, custom agents, MCP tools |
-| 3 | [.NET API Modernization](./docs/exercise-3-dotnet.md) | 20 min | ⭐⭐ | Backend | Migrate .NET Framework → .NET 8 with custom skill, minimal APIs, EF Core |
-| 4 | [.NET API Modernization with Coding Agent](./docs/exercise-4-dotnet.md) | 25 min | ⭐⭐⭐⭐ | Backend | Migrate .NET Framework 4.8 → .NET 8 autonomously using GitHub Copilot Coding Agent |
-| 5 | [Angular Frontend Modernization](./docs/exercise-5-angular.md) | 20 min | ⭐⭐ | Frontend | Upgrade Angular 12 → 18 with custom instructions, signals, standalone components |
-| 6 | [DevOps & Data Pipeline](./docs/exercise-6-devops-data.md) | 20 min | ⭐⭐⭐⭐ | DevOps/Full-Stack | Containerize apps with custom skill, GitHub Actions CI/CD, Python ETL pipeline |
+| #   | Exercise                                                                | Duration | Difficulty | Learning Path     | What You'll Learn                                                                  |
+| --- | ----------------------------------------------------------------------- | -------- | ---------- | ----------------- | ---------------------------------------------------------------------------------- |
+| 1   | [Java Backend Modernization](./docs/exercise-1-java.md)                 | 30 min   | ⭐⭐⭐     | Backend           | Migrate Spring Boot 2.x → 3.x, add reactive patterns, R2DBC                        |
+| 2   | [CVE Detection & Security Hardening](./docs/exercise-2-java-cli.md)     | 30 min   | ⭐⭐⭐⭐   | Security          | Fix CVEs, harden security using Copilot CLI, custom agents, MCP tools              |
+| 3   | [.NET API Modernization](./docs/exercise-3-dotnet.md)                   | 20 min   | ⭐⭐       | Backend           | Migrate .NET Framework → .NET 8 with custom skill, minimal APIs, EF Core           |
+| 4   | [.NET API Modernization with Coding Agent](./docs/exercise-4-dotnet.md) | 25 min   | ⭐⭐⭐⭐   | Backend           | Migrate .NET Framework 4.8 → .NET 8 autonomously using GitHub Copilot Coding Agent |
+| 5   | [Angular Frontend Modernization](./docs/exercise-5-angular.md)          | 20 min   | ⭐⭐       | Frontend          | Upgrade Angular 12 → 18 with custom instructions, signals, standalone components   |
+| 6   | [DevOps & Data Pipeline](./docs/exercise-6-devops-data.md)              | 20 min   | ⭐⭐⭐⭐   | DevOps/Full-Stack | Containerize apps with custom skill, GitHub Actions CI/CD, Python ETL pipeline     |
 
-
-
-##  Additional Resources
+## Additional Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [App Modernization with GitHub Copilot](https://docs.github.com/en/copilot/tutorials/modernize-java-applications)
@@ -60,5 +61,4 @@ By the end of this 2-hour workshop, you will:
 
 ---
 
-**Ready to modernize Game Arena Legends?** [Start with Exercise 1](./docs/exercise-1-java.md) or pick any exercise above! 
-
+**Ready to modernize Game Arena Legends?** [Start with Exercise 1](./docs/exercise-1-java.md) or pick any exercise above!
